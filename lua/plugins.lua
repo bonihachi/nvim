@@ -49,6 +49,7 @@ return packer.startup(function(use)
   use({ "EdenEast/nightfox.nvim" }) -- Color scheme
   use({ "folke/tokyonight.nvim" })
   use({ "shaunsingh/nord.nvim" })
+  use({ "cocopon/iceberg.vim" })
 
   use({ "nvim-lualine/lualine.nvim" }) -- Statusline
   use({ "windwp/nvim-autopairs" }) -- Autopairs, integrates with both cmp and treesitter
