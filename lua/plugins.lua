@@ -75,6 +75,7 @@ return packer.startup(function(use)
   use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
   use({ "glepnir/lspsaga.nvim" }) -- LSP UIs
   use({ "LuaLS/lua-language-server" })
+  use({ "neoclide/coc.nvim", branch = 'release' })
 
   -- Formatter
   use({ "MunifTanjim/prettier.nvim" })
