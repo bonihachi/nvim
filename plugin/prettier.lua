@@ -16,6 +16,7 @@ prettier.setup {
     "typescript",
     "typescriptreact",
     "yaml",
+    "rust"
   },
 
   arrow_parens = "always",
