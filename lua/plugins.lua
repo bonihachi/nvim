@@ -56,11 +56,9 @@ return packer.startup(function(use)
   use({ "kyazdani42/nvim-web-devicons" }) -- File icons
   use({ "akinsho/bufferline.nvim" })
 
-  -- snippets
-  use({ "L3MON4D3/LuaSnip" }) --snippet engine
-
   -- LSP
   use({ "neoclide/coc.nvim", branch = 'release' })
+  use({ 'neovim/nvim-lspconfig' })
 
   -- Formatter
   use({ "MunifTanjim/prettier.nvim" })
@@ -86,6 +84,15 @@ return packer.startup(function(use)
 
   -- rust integration
   use({ 'rust-lang/rust.vim' })
+
+  -- cmp plugins
+  use({ 'hrsh7th/nvim-cmp' }) -- completion plugin
+  use({ 'hrsh7th/cmp-buffer' }) -- buffer completions
+  use({ 'hrsh7th/cmp-path' }) -- path completions
+  use({ 'hrsh7th/cmp-cmdline' }) -- cmdline completions
+  use({ 'hrsh7th/cmp-nvim-lsp' })
+  use({ 'hrsh7th/cmp-nvim-lua' })
+  use({ 'onsails/lspkind-nvim' })
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
