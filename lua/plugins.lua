@@ -59,6 +59,7 @@ return packer.startup(function(use)
   -- LSP
   use({ "neoclide/coc.nvim", branch = 'release' })
   use({ 'neovim/nvim-lspconfig' })
+  use({ 'lighttiger2505/sqls' }) -- LSP for SQL
 
   -- Formatter
   use({ "MunifTanjim/prettier.nvim" })
