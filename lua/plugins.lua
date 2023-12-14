@@ -84,6 +84,9 @@ return packer.startup(function(use)
   use({ "MunifTanjim/nui.nvim" })
   use({ "rcarriga/nvim-notify" })
 
+  -- rust integration
+  use({ 'rust-lang/rust.vim' })
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

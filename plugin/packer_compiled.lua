@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
   },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
+  },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
     path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
