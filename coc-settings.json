@@ -22,5 +22,5 @@
         "typescript",
         "typescriptreact",
         "rust"
-    ],
+    ]
 }
