@@ -95,6 +95,31 @@ return packer.startup(function(use)
   use({ 'hrsh7th/cmp-nvim-lua' })
   use({ 'onsails/lspkind-nvim' })
 
+  -- better launch screen
+  use {
+    'goolord/alpha-nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.startify'.config)
+    end
+  }
+
+  -- tree filer
+  use({
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v3.x",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons",
+			"MunifTanjim/nui.nvim",
+			"3rd/image.nvim",
+			{
+				"s1n7ax/nvim-window-picker",
+				version = "2.*",
+			},
+		},
+	})
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

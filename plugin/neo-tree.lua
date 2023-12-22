@@ -1,0 +1,7 @@
+vim.keymap.set("n", "<C-t>", ":Neotree toggle<Return>")
+vim.keymap.set("v", "<C-t>", ":Neotree toggle<Return>")
+vim.keymap.set("n", "<C-f>", ":Neotree focus<Return>")
+vim.keymap.set("v", "<C-f>", ":Neotree focus<Return>")
+vim.keymap.set("n", "gs", ":Neotree git_status<Return>")
+vim.keymap.set("v", "gs", ":Neotree git_status<Return>")
+vim.cmd([[nnoremap \ :Neotree reveal<cr>]])
