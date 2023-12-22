@@ -63,6 +63,11 @@ end
 -- ESC*2 でハイライトやめる
 keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 
+-- terminal
+keymap("n", "tt", ":split<Return><C-w>w:terminal<Return>", opts) -- open terminal window by bsplit
+keymap("t", "<Space>q", "<C-\\><C-n>:q<CR>", opts) -- <SPACE>q to exit terminal
+keymap("t", "<Esc>", "<C-\\><C-n>", opts)
+
 -- Insert --
 -- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
@@ -80,3 +85,4 @@ keymap("v", "v", "$h", opts)
 
 -- 0番レジスタを使いやすくした
 keymap("v", "<C-p>", '"0p', opts)
+
