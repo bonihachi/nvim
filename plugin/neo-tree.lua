@@ -294,8 +294,8 @@ package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/shar
 package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?.lua;"
 
 if not vim.g.vscode then
-  keymap("n", "<C-t>", ":Neotree toggle<Return>", { noremap = true, silent = true })
-  keymap("v", "<C-t>", ":Neotree toggle<Return>", { noremap = true, silent = true })
+  keymap("n", "<C-o>", ":Neotree toggle<Return>", { noremap = true, silent = true })
+  keymap("v", "<C-o>", ":Neotree toggle<Return>", { noremap = true, silent = true })
   keymap("n", "<C-f>", ":Neotree focus<Return>", opts)
   keymap("v", "<C-f>", ":Neotree focus<Return>", opts)
   keymap("n", "gs", ":Neotree git_status<Return>", opts)
