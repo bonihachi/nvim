@@ -98,9 +98,8 @@ return packer.startup(function(use)
   -- better launch screen
   use {
     'goolord/alpha-nvim',
-    requires = { 'nvim-tree/nvim-web-devicons' },
     config = function ()
-        require'alpha'.setup(require'alpha.themes.startify'.config)
+        require'alpha'.setup(require'alpha.themes.dashboard'.config)
     end
   }
 
@@ -126,6 +125,8 @@ return packer.startup(function(use)
 
   -- colorizer
   use({ "norcalli/nvim-colorizer.lua" })
+
+  use({ 'lewis6991/impatient.nvim' })
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
