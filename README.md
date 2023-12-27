@@ -6,12 +6,12 @@ Neovim configuration
 If you don't have Packer installed, run the command below to install it.
 
 ```bash
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+    git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
 ```bash
-git clone https://github.com/bonihachi/nvim
+    git clone https://github.com/bonihachi/nvim
 ```
 
 ### Linux
@@ -20,7 +20,7 @@ Create a symbolic link to the local repository, named nvim, in ~/.config/nvim (L
 
 In ~/.config
 ```bash
-ln -s ~/path/to/nvim/repository nvim
+    ln -s ~/path/to/nvim/repository nvim
 ```
 
 ### Windows
@@ -32,6 +32,6 @@ New-Item -Value ~/path/to/nvim/repository -Path ~/AppData/Local -Name nvim -Item
 Make sure to have the following packages to have telescope work properly:
 
 ```powershell
-choco install fd
-choco isntall ripgrep
+    choco install fd
+    choco isntall ripgrep
 ```
