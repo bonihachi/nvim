@@ -42,6 +42,7 @@ local options = {
   splitbelow = false, -- オンのとき、ウィンドウを横分割すると新しいウィンドウはカレントウィンドウの下に開かれる
   splitright = false, -- オンのとき、ウィンドウを縦分割すると新しいウィンドウはカレントウィンドウの右に開かれる
   laststatus = 3, -- ステータスラインを画面下部だけにする
+  clipboard = "unnamedplus"
 }
 
 vim.opt.shortmess:append("c")

@@ -72,8 +72,8 @@ return packer.startup(function(use)
   use({ "nvim-telescope/telescope-file-browser.nvim" })
   use({ "mrjones2014/nvim-ts-rainbow" })
 
-  -- VSCode like にする
-  use "lukas-reineke/indent-blankline.nvim"
+  -- Visualize the scope of a hovered variable
+  use({ "shellRaining/hlchunk.nvim" })
 
   use({ "windwp/nvim-ts-autotag" })
 

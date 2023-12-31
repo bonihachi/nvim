@@ -125,6 +125,11 @@ _G.packer_plugins = {
     path = "/Users/kiyoe/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["hlchunk.nvim"] = {
+    loaded = true,
+    path = "/Users/kiyoe/.local/share/nvim/site/pack/packer/start/hlchunk.nvim",
+    url = "https://github.com/shellRaining/hlchunk.nvim"
+  },
   ["iceberg.vim"] = {
     loaded = true,
     path = "/Users/kiyoe/.local/share/nvim/site/pack/packer/start/iceberg.vim",
@@ -139,11 +144,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kiyoe/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
-  },
-  ["indent-blankline.nvim"] = {
-    loaded = true,
-    path = "/Users/kiyoe/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
-    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
