@@ -22,7 +22,7 @@ vim.fn.sign_define("DiagnosticSignInfo", { text = " ", texthl = "DiagnosticSi
 vim.fn.sign_define("DiagnosticSignHint", { text = "󰌵", texthl = "DiagnosticSignHint" })
 
 require("neo-tree").setup({
-	close_if_last_window = false, -- Close Neo-tree if it is the last window left in the tab
+	close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
 	popup_border_style = "rounded",
 	enable_git_status = true,
 	enable_diagnostics = true,
@@ -301,3 +301,5 @@ if not vim.g.vscode then
   keymap("n", "gs", ":Neotree git_status<Return>", opts)
   keymap("v", "gs", ":Neotree git_status<Return>", opts)
 end
+
+
