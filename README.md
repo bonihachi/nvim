@@ -18,9 +18,8 @@ If you don't have Packer installed, run the command below to install it.
 
 Create a symbolic link to the local repository, named nvim, in ~/.config/nvim (Linux) or ~/AppData/Local (Windows)
 
-In ~/.config
 ```bash
-    ln -s ~/path/to/nvim/repository nvim
+ln -s ~/path/to/nvim/repository ~/.config/nvim
 ```
 
 ### Windows
@@ -32,8 +31,8 @@ New-Item -Value ~/path/to/nvim/repository -Path ~/AppData/Local -Name nvim -Item
 Make sure to have the following packages to have telescope work properly:
 
 ```powershell
-    choco install fd
-    choco isntall ripgrep
+choco install fd
+choco isntall ripgrep
 ```
 
 ## Coc Dependencies
@@ -43,7 +42,7 @@ If you want to use `coc-rust-analyzer`, if should have installed rust-analyzer u
 ### Via rustup
 
 ```zsh
-    rustup component add rust-analyzer
+rustup component add rust-analyzer
 ```
 
 ### Binary
