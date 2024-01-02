@@ -35,3 +35,23 @@ Make sure to have the following packages to have telescope work properly:
     choco install fd
     choco isntall ripgrep
 ```
+
+## Coc Dependencies
+
+If you want to use `coc-rust-analyzer`, if should have installed rust-analyzer using the command below.
+
+### Via rustup
+
+```zsh
+    rustup component add rust-analyzer
+```
+
+### Binary
+
+If you have a binary, you can specify the location in `coc-settings.json`
+
+```json
+{
+  "rust-analyzer.serverPath": "/path/to/rust-analyzer",
+}
+```
