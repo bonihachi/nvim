@@ -64,9 +64,9 @@ end
 keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 
 -- terminal
-keymap("n", "ts", ":split<Return><C-w>w:terminal<Return>", opts) -- open terminal window by bsplit
+keymap("n", "ts", ":split<Return><C-w>w:terminal<Return>", opts)  -- open terminal window by bsplit
 keymap("n", "tv", ":vsplit<Return><C-w>w:terminal<Return>", opts) -- open terminal window on the right
-keymap("t", "<Space>q", "<C-\\><C-n>:q<CR>", opts) -- <SPACE>q to exit terminal
+keymap("t", "<Space>q", "<C-\\><C-n>:q<CR>", opts)                -- <SPACE>q to exit terminal
 keymap("t", "<Esc>", "<C-\\><C-n>", opts)
 
 -- Insert --
@@ -86,4 +86,3 @@ keymap("v", "v", "$h", opts)
 
 -- 0番レジスタを使いやすくした
 keymap("v", "<C-p>", '"0p', opts)
-
