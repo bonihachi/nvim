@@ -240,16 +240,6 @@ _G.packer_plugins = {
     path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
   },
-  ["rust.vim"] = {
-    loaded = true,
-    path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/rust.vim",
-    url = "https://github.com/rust-lang/rust.vim"
-  },
-  rustaceanvim = {
-    loaded = true,
-    path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/rustaceanvim",
-    url = "https://github.com/mrcjkb/rustaceanvim"
-  },
   sqls = {
     loaded = true,
     path = "/home/bonihachi/.local/share/nvim/site/pack/packer/start/sqls",

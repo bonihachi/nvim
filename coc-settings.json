@@ -6,4 +6,10 @@
   "suggest.snippetIndicator": " ►",
   "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSave": true,
+  "rust-analyzer.enable": true,
+  "rust-analyzer.lens.enable": true,
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.server.extraEnv": {
+    "RUSTUP_TOOLCHAIN": "stable"
+  }
 }
