@@ -85,6 +85,7 @@ return packer.startup(function(use)
 
   -- rust integration
   use({ 'rust-lang/rust.vim' })
+  use({ 'mrcjkb/rustaceanvim' })
 
   -- cmp plugins
   use({ 'hrsh7th/nvim-cmp' }) -- completion plugin
