@@ -6,7 +6,7 @@ require('hlchunk').setup({
     },
   },
   indent = {
-    enable = false,
+    enable = true,
     chars = { "│", "¦", "┆", "┊", }, -- more code can be found in https://unicodeplus.com/
 
     style = {
@@ -20,7 +20,7 @@ require('hlchunk').setup({
   },
 
   blank = {
-    enable = true,
+    enable = false,
     chars = {
       " ",
     },
