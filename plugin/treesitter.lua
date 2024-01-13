@@ -9,6 +9,5 @@ treesitter.setup({
 	},
 	indent = {
 		enable = true,
-	},
-	ensure_installed = "all",
+	}
 })
