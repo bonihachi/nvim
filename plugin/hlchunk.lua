@@ -4,6 +4,13 @@ require('hlchunk').setup({
       { fg = "#cdd1e6" },
       { fg = "#c21f30" }, -- this fg is used to highlight wrong chunk
     },
+    chars = {
+      horizontal_line = "─",
+      vertical_line = "│",
+      left_top = "╭",
+      left_bottom = "╰",
+      right_arrow = "➤",
+    },
   },
   indent = {
     enable = true,
